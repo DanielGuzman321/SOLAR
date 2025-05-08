@@ -2059,12 +2059,15 @@ h1.banner-title {
 
 /*  Footer Top
 --------------------------------------------------------------*/
+
 #footer .footer-item.item-001 {
   margin-right: 140px;
 }
 
-#footer .footer-item.item-001 p {
-  margin: 20px 0;
+@media only screen and (max-width: 768px) {
+  #footer .footer-item.item-001 {
+    margin-right: 0;
+  }
 }
 
 .footer-item .social-media li {
